@@ -1,0 +1,15 @@
+using System;
+
+class MainClass {
+  public static void Main (string[] args)
+   {
+   Console.Write("Informe um valor inteiro: ");
+   int a = int.Parse(Console.ReadLine());
+   Console.Write("Informe um valor inteiro: ");
+   int b = int.Parse(Console.ReadLine());
+   Console.WriteLine ($"O valor da soma é de {a + b}.");
+   Console.WriteLine ($"O valor da subtação é de {a - b}.");
+   Console.WriteLine ($"O valor da multiplicação é de {a*b}.");
+   Console.WriteLine ($"O valor da divisão é de {a/b}");
+  }
+}
