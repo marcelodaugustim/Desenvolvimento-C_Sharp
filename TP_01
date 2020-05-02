@@ -1,13 +1,16 @@
 using System;
 
-class MainClass {
+class OperacoesMatematicas
+
+{
   public static void Main (string[] args)
    {
-   Console.Write("Informe um valor inteiro: ");
+   Console.Write("Informe um numero: ");
    int a = int.Parse(Console.ReadLine());
-   Console.Write("Informe um valor inteiro: ");
+   Console.Write("Informe um outro numero: ");
    int b = int.Parse(Console.ReadLine());
-   Console.WriteLine ($"O valor da soma é de {a + b}.");
+  
+  Console.WriteLine ($"O valor da soma é de {a + b}.");
    Console.WriteLine ($"O valor da subtação é de {a - b}.");
    Console.WriteLine ($"O valor da multiplicação é de {a*b}.");
    Console.WriteLine ($"O valor da divisão é de {a/b}");
